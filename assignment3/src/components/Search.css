@@ -1,0 +1,115 @@
+/* Whole page containing */
+.results-container{
+    width: 800px;
+}
+
+/* Content above Navbar */
+.above-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 800px;
+}
+
+/* Info */
+.first-col{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.fav-name{
+    display: flex;
+    align-items: horizontal;
+}
+
+.buy-button{
+    background-color: 'green';  
+    border-radius: 10px;
+}
+
+.buy-button {
+    background-color:green;
+    color: white;
+    border-radius: 5px;
+    width: 45px;
+    height: 33px;
+    border: none;
+    padding: 0px;
+  }
+
+/* Logo */
+.second-col{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo img{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+/* Price */
+.third-col{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+} 
+
+/* NavBar */
+.nav-list-search{
+  padding: 0px;
+  margin-top: 20px;
+}
+
+#nav-list-selected{
+  color: #20249c;
+  border-bottom: 2px solid #20249c;
+  align-items: center;
+  }
+
+.nav-list-search a{
+  color: #ccc;
+  text-decoration: none;
+  width: 200px;
+  padding: 15px;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+.nav-list-search{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  list-style: none;
+}
+
+.summary{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 850px;
+  margin-top: 20px;
+}
+
+.summary-first-col{
+  padding-left: 40px;
+  width: 50%;
+}
+
+.center-aligned-text{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
