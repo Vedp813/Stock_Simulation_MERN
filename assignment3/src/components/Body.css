@@ -6,6 +6,21 @@
     margin-top: 20px;
 }
 
+p {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  h3{
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  h2{
+    margin: 0px;
+    padding: 0px;
+  }
+
 .text-and-search {
     align-items: center;
     display: flex;

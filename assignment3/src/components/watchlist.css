@@ -1,0 +1,59 @@
+.watchlist{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.watch{
+    width: 850px;
+}
+
+.watchlist h2{
+    margin-bottom: 30px;
+}
+
+.close-icon{
+    color: black;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-bottom: 0px;
+    margin: 0px;
+}
+
+.card-text{
+    margin-bottom: 8px;
+}
+
+.card-body{
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.first-col-watch{
+    display: flex;
+    flex-direction: column;
+    align-items: first baseline;
+    width: 400px;
+}
+
+.second-col-watch{
+    display: flex;
+    flex-direction: column;
+    align-items: first baseline;
+}   
+
+.NoData{
+    display: flex;
+    width: 850px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: #fff4cc;
+    font-size: 14px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

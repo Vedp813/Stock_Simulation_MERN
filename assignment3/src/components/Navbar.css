@@ -8,6 +8,10 @@
     margin-right: 3px;
 }
 
+#navbar-brand{
+    color: white;
+}
+
 #nav-active {
     border: 1px solid white;
     border-radius: 10px;
