@@ -1,3 +1,10 @@
+.spinner-container-portfolio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:70vh;
+}
+
 .portfolio{
     display: flex;
     flex-direction: column;
@@ -6,10 +13,50 @@
 }
 
 .port{
-    width: 850px;
+    width: 85%;
 }
 
 .port p{
     font-size: 20px;
     font-weight: 400;
+}
+ 
+
+.NoData-portfolio{
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: #fff4cc;
+    font-size: 14px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.stock-bought{
+    display: flex;
+    width: 85%;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #d0e4d4;
+    font-size: 14px;
+    padding-left: 35%;
+    justify-content: space-between;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.close-icon-port{
+    size: 14px;
+}
+
+.stock-sold{
+    display: flex;
+    width: 85%;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f8ccd4;
+    font-size: 14px;
+    padding-left: 35%;
+    justify-content: space-between;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }

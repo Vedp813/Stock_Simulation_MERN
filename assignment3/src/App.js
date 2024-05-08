@@ -17,6 +17,7 @@ class App extends Component {
             <NavigationBar />
             <Routes>
                 <Route path="/" element={<Navigate to="/search/home" />} />
+                <Route path="/search" element={<Navigate to="/search/home" />} />
                 <Route path="/search/home" element={<Body />} />
                 <Route path='/search/:sendtick' element={<Body />}/>
                 <Route path="/watchlist" element={<Watchlist />} />

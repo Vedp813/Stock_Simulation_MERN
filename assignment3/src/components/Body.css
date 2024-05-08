@@ -29,6 +29,8 @@ p {
     margin-bottom: 20px;
 }
 
+
+
 .text-and-search p {
     font-size: 25px;
 }
@@ -50,6 +52,21 @@ p {
 .typeahead input[type="text"] {
     user-select: none;
 }
+
+.typeahead .dropdown-item{
+    white-space: normal;
+    overflow-x: hidden;
+}
+
+.typeahead .rbt-highlight-text {
+    background-color: transparent;
+}
+
+.form-control:focus {
+    border: none;
+    outline: none;
+}
+
 
 .search-container input {
     margin-left: 8px;

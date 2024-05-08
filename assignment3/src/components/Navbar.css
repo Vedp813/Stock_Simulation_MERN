@@ -21,3 +21,11 @@
 .navbar a {
     color: white;
 }
+
+.button .navbar-toggle-icon{
+    color: white;
+  }
+  
+  .span .navbar-toggle-icon{
+    color: white;
+  }
